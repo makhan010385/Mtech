@@ -1,0 +1,11 @@
+String Interpolator
+String Interpolation refers to substitution of defined variables or expressions in a given String with respected values. String Interpolation provides an easy way to process String literals. To apply this feature of Scala, we must follow few rules:
+1.	String must be defined with starting character as s / f /raw.
+2.	Variables in the String must have ‘$’ as prefix.
+3.	Expressions must be enclosed within curly braces ({, }) and ‘$’ is added as prefix
+
+s Interpolator: Within the String, we can access variables, object fields, functions calls, etc.
+f Interpolator: This interpolation helps in formatting numbers easily.
+To understand how format specifiers work refer Format Specifiers.
+
+raw Interpolator: String Literal should start with ‘raw’. This interpolator treats escape sequences same as any other character in a String.
